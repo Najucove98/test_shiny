@@ -19,6 +19,7 @@
 options(scipen = 999)
 
 #////////////////////////////////////////////////////////////////////////////////////////////////
+# Mismo codigoque en el tp para crear la base para el primer grafico
 # Carga de los datos
 cookies <- read.delim("cookies.txt") # cookies.txt en la misma carpeta con al app
 
