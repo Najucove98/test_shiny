@@ -146,8 +146,8 @@ interfaz <- bslib::page_navbar(
         title = "Panel de Control",
         position = "left",
         
-        # Listado de tiempo
-        shinyWidgets::sliderTextInput(
+        # Listado de tiempo shiny::radioButtons("id9", "Opción única con listado a la vista", LETTERS[1:5])
+        shiny::radioButtons(
           inputId = "tiempo",                                    # ID del widget
           label = "Tiempo",                                      # Título a mostrar en la app
           choices = colnames(datos_tiempo)[c(11, 12, 13, 14)],   # Opciones disponibles
